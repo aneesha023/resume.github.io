@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h5{
+    text-align: center;
+    font-family:cursive;
+    font-size: small;
+}
+h6{
+    font-size:medium;
+}
+.vl{
+    border-left:2px solid black;
+    height:500px;
+}
+#maindiv{
+    display: grid;
+    grid-template-areas: "a1 a1 b1 b1";
+}
+#a1{
+    grid-area: a1;
+}
+#b1{
+    grid-area: b1;
+}
