@@ -1,11 +1,14 @@
 h1{
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
 }
 h5{
     text-align: center;
     font-family:cursive;
     font-size: small;
+    background-color:chocolate;
 }
 h6{
     font-size:medium;
@@ -18,9 +21,15 @@ h6{
     display: grid;
     grid-template-areas: "a1 a1 b1 b1";
 }
+a:hover{
+    color:cornflowerblue;
+}
 #a1{
     grid-area: a1;
 }
 #b1{
     grid-area: b1;
+}
+body{
+    background-color:bisque;
 }
